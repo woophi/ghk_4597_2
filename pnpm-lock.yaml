@@ -11,6 +11,12 @@ importers:
       '@alfalab/core-components':
         specifier: 48.16.0
         version: 48.16.0(@alfalab/core-config@1.0.0)(@alfalab/stack-context@1.16.0)(@types/react@19.0.9)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@alfalab/icons-glyph':
+        specifier: ^2.223.0
+        version: 2.223.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@alfalab/icons-rocky':
+        specifier: ^1.18.0
+        version: 1.18.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@vanilla-extract/css':
         specifier: 1.17.1
         version: 1.17.1
@@ -90,6 +96,12 @@ packages:
 
   '@alfalab/icons-logotype@2.33.0':
     resolution: {integrity: sha512-+HxFrGWmCKES0gkLZHRJqKFuHywwB9XGsKX4BSJdlGD0a6HSCE9p4ZwbnO1WIQfqEyvdkeo0FIPXWFBva/mPAw==}
+    peerDependencies:
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+
+  '@alfalab/icons-rocky@1.18.0':
+    resolution: {integrity: sha512-vVTY7AJGKxRVc351yuXc5JJbRG67jA+aImnyQo85r6+AEjysuQI20JDy+B3e7/yhsBjEuT+rW8s3NllrPH4vdg==}
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
@@ -2054,6 +2066,11 @@ snapshots:
       react-dom: 19.0.0(react@19.0.0)
 
   '@alfalab/icons-logotype@2.33.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+
+  '@alfalab/icons-rocky@1.18.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
