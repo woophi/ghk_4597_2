@@ -69,7 +69,7 @@ export const App = () => {
   const [loading, setLoading] = useState(false);
   const [openBs, setOpenBs] = useState(false);
   const [error, setError] = useState('');
-  const [sum, setSum] = useState<string>('');
+  const [sum, setSum] = useState<string>('2000');
   const [thxShow, setThx] = useState(LS.getItem(LSKeys.ShowThx, false));
   const [calcData, setCalcData] = useState<{
     incomeValue: number;
@@ -77,9 +77,9 @@ export const App = () => {
     monthlyDeposit: number;
     taxInvest: boolean;
   }>({
-    firstDeposit: 72_000,
+    firstDeposit: 2_000,
     incomeValue: 80_000,
-    monthlyDeposit: 6_000,
+    monthlyDeposit: 500,
     taxInvest: false,
   });
 
